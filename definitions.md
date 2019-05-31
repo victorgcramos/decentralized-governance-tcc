@@ -55,11 +55,14 @@ Sympol has a divided power according to [Montesquieu's definition of *separation
 
 The definition of *the process of choosing representatives* is critical for understanding the political system behind Sympol.
 
-Sympol is democratic system, which means every person can give opinions about what is happening in their lives regarding the decisions of the government.
+Sympol is democratic system, which means every person can give opinions about what is happening in their lives regarding the decisions of the government by choosing a representative (voter), or being a representative (candidate).
 
 The process of giving opinion is called **election** and it can be described by the following image:
 
 ![Voting System](https://github.com/victorgcramos/tcc-unb/blob/master/images/voting-system.png)
+
+
+The consensus behind the decisions made by the population is the democratic one, which means if the **majority** stands for X, then X is approved. Therefore, the elected representative is chosen by the **major number of votes**, which, in this case, is the Red candidate.
 
 <!-- 
 Let's take this quote as the starting point of this work:
