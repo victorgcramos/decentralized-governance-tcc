@@ -45,7 +45,9 @@ Sympol has a divided power according to [Montesquieu's definition of *separation
 
     - Determine which laws Congress intended to apply to any given case;
     - Ensure that laws are enforced.
+    
 
+![Sympol, the simplified political system](https://github.com/victorgcramos/tcc-unb/blob/master/images/political-system-diagram-definition.png)
 
 
 Let's take this quote as the starting point of this work:
