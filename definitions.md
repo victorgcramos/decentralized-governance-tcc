@@ -58,6 +58,9 @@ The definition of *the process of choosing representatives* is critical for unde
 Sympol is democratic system, which means every person can give opinions about what is happening in their lives regarding the decisions of the government.
 
 The process of giving opinion is called **election** and it can be described by the following image:
+
+![Voting System](https://github.com/victorgcramos/tcc-unb/blob/master/images/voting-system.png)
+
 <!-- 
 Let's take this quote as the starting point of this work:
 > People do not feel represented -->
