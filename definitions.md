@@ -68,5 +68,11 @@ The consensus behind the decisions made by the population is the democratic one,
 Let's take this quote as the starting point of this work:
 > People do not feel represented -->
 
+## Representativeness
+
+According to the definitions above, the representativeness symbolizes the relationship between the representative and the voter. The process of having the opinion supported by the representative indicates that the voter *has representativeness*.
+
+On our example above, it is possible to notice that the actual government (blue) does not satisfy the majority (more dislikes than likes). Hence, the population is not feeling represented by the government, so they vote for a new representative to improve the level of satisfaction.
+
 ## Bibliography
-[1] - tax | Definition of tax in English by Oxford Dictionaries. https://en.oxforddictionaries.com/definition/tax
+[1] - "tax" | definition of tax in English by Oxford Dictionaries. https://en.oxforddictionaries.com/definition/tax
