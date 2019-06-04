@@ -49,7 +49,7 @@ Sympol has a divided power according to [Montesquieu's definition of *separation
 
 ![Sympol, the simplified political system](https://github.com/victorgcramos/tcc-unb/blob/master/images/political-system-diagram-definition.png)
 
->  **[1] Money**: something generally accepted as a medium of exchange, a measure of value, or a means of payment; **[2] Tax**: a compulsory contribution to state revenue, levied by the government on workers' income and business profits, or added to the cost of some goods, services, and transactions; **[3] Federal treasure**: the money earned from taxes.
+>  **[1] Money**: something generally accepted as a medium of exchange, a measure of value, or a means of payment; **[2] Tax**: a compulsory contribution to state revenue, levied by the government on workers' income and business profits, or added to the cost of some goods, services, and transactions [[1]](https://github.com/victorgcramos/tcc-unb/blob/master/definitions.md#bibliography); **[3] Federal treasure**: the money earned from taxes.
 
 ### The Voting System
 
