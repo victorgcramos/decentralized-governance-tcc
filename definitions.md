@@ -13,7 +13,7 @@ Firstly, the definition of **political system** is required to follow our defini
 This schema above describes a simplified political system, named **Sympol**, whose main actors are **people** and **the Government**.
 
 #### People
-People, *a.k.a citizens*, are entities in which Sympol bases itself on. The idea of politics, [described by Aristotle](http://www.iep.utm.edu/aris-pol/), is the management of people's lives, to ensure peace and well-being of the population.
+People, *a.k.a citizens*, are entities in which Sympol bases itself on. The idea of politics, [described by Aristotle](http://www.iep.utm.edu/aris-pol/)[[1]](https://github.com/victorgcramos/tcc-unb/blob/master/definitions.md#bibliography), is the management of people's lives, to ensure peace and well-being of the population.
 
 The leading roles of people, in Sympol, are:
 - Pay taxes and comply with the laws;
@@ -25,7 +25,7 @@ The leading roles of people, in Sympol, are:
 #### The Government
 The Government is a composition of people that were elected, and have the power to decide on social, economic, and political causes.
 
-Sympol has a divided power according to [Montesquieu's definition of *separation of power*](http://oll.libertyfund.org/titles/montesquieu-complete-works-vol-1-the-spirit-of-laws#lf0171-01_label_786). The three powers on our system are **executive**, **legislative** and **judicial**.
+Sympol has a divided power according to [Montesquieu's definition of *separation of power*](http://oll.libertyfund.org/titles/montesquieu-complete-works-vol-1-the-spirit-of-laws#lf0171-01_label_786) [[2]](https://github.com/victorgcramos/tcc-unb/blob/master/definitions.md#bibliography). The three powers on our system are **executive**, **legislative** and **judicial**.
 
 
 - **Legislative**: the **Congress**, which roles are:
@@ -49,7 +49,7 @@ Sympol has a divided power according to [Montesquieu's definition of *separation
 
 ![Sympol, the simplified political system](https://github.com/victorgcramos/tcc-unb/blob/master/images/political-system-diagram-definition.png)
 
->  **[1] Money**: something generally accepted as a medium of exchange, a measure of value, or a means of payment; **[2] Tax**: a compulsory contribution to state revenue, levied by the government on workers' income and business profits, or added to the cost of some goods, services, and transactions [[1]](https://github.com/victorgcramos/tcc-unb/blob/master/definitions.md#bibliography); **[3] Federal treasure**: the money earned from taxes.
+>  **[1] Money**: something generally accepted as a medium of exchange, a measure of value, or a means of payment; **[2] Tax**: a compulsory contribution to state revenue, levied by the government on workers' income and business profits, or added to the cost of some goods, services, and transactions [[3]](https://github.com/victorgcramos/tcc-unb/blob/master/definitions.md#bibliography); **[3] Federal treasure**: the money earned from taxes.
 
 ### The Voting System
 
@@ -75,4 +75,6 @@ According to the definitions above, the representativeness symbolizes the relati
 On our example above, it is possible to notice that the actual government (blue) does not satisfy the majority (more dislikes than likes). Hence, the population is not feeling represented by the government, so they vote for a new representative to improve the level of satisfaction.
 
 ## Bibliography
-[1] - "tax" | definition of tax in English by Oxford Dictionaries. https://en.oxforddictionaries.com/definition/tax
+1. "Aristotle: Politics | Internet Encyclopedia of Philosophy." Accessed June 4, 2019. https://www.iep.utm.edu/aris-pol.
+2. "Complete Works, vol. 1 (The Spirit of Laws) - Online Library of Liberty." Accessed June 4, 2019. https://oll.libertyfund.org/titles/montesquieu-complete-works-vol-1-the-spirit-of-laws.
+3. "tax" | definition of tax in English by Oxford Dictionaries. https://en.oxforddictionaries.com/definition/tax
