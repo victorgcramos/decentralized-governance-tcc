@@ -67,3 +67,6 @@ The consensus behind the decisions made by the population is the democratic one,
 <!-- 
 Let's take this quote as the starting point of this work:
 > People do not feel represented -->
+
+## Bibliography
+[1] - tax | Definition of tax in English by Oxford Dictionaries. https://en.oxforddictionaries.com/definition/tax
