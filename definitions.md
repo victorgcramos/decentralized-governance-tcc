@@ -1,6 +1,6 @@
 # A basic definition of Sympol, a simplified political system
 
-***Abstract - The current political system is complex and demands many features to keep working and not collapse. In this article, we are going to see the definition of a simplified political system, named Sympol, which  the basis for the articles definitions of people, government and representativeness.***
+***Abstract - The current political system is complex and demands many features to keep working and not collapse. In this article, we are going to see the definition of a simplified political system, named Sympol, which  the basis for the article's definitions of people, government and representativeness.***
 
 ## Introduction
 
