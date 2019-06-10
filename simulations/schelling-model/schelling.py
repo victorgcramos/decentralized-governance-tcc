@@ -61,7 +61,7 @@ def nbhd_analysis(elem, matrix, lin, col, nbhd_side, threshold = 0.5):
     aux = matrix[next_lin][next_col]
     matrix[next_lin][next_col] = matrix[lin][col]
     matrix[lin][col] = aux
-  return (matrix, is_satisfied)
+  return matrix
 
 
 if __name__ == '__main__':
@@ -70,21 +70,23 @@ if __name__ == '__main__':
   n_of_iterations = int(input("Number of iterations: "))
   nbhd_size = int(input("Neighborhood size (N for NxN): "))
   population = init(n, percentage_occupied)
-  print(population)
+  
+  # plot chart data
   plt.matshow(population)
   plt.colorbar()
-  plt.savefig("images/%s-before.png"% now.isoformat())
-  # new population after neighborhood analysis
+  plt.savefig("images/temp/%s-before.png"% now.isoformat())
+  
+  # iterates over matrix 
   iteration = 0
   while iteration < n_of_iterations:
     for i in range(n):
       for j in range(n):
         elem = population[i][j]
+        # elements of type 0 are considered free spaces, so they don't change spots
         if elem != 0:
-          (population, is_elem_satisfied) = nbhd_analysis(elem, population, i, j, nbhd_size)
+          population = nbhd_analysis(elem, population, i, j, nbhd_size)
     iteration += 1
-
-  print(population)
+  # plot chart data
   plt.matshow(population)
   plt.colorbar()
-  plt.savefig("images/%s-after.png"% now.isoformat())
+  plt.savefig("images/temp/%s-after.png"% now.isoformat())
