@@ -36,4 +36,4 @@ These four groups mentioned above have the responsibility to select the candidat
 > "Their wishes ought to have great weight with him; their opinion, high respect; their business, unremitted attention. It is his duty to sacrifice his repose, his pleasures, his satisfaction, to theirs" [1];-->
 
 ## Bibliography
-[1] The Works of the Right Honourable Edmund Burke. Volume I (London: Henry G. Bohn, 1854), pp. 446–48.
+[1] Edmund Burke. The Works of Edmund Burke. Harper & brothers; 1847. p. 221.
