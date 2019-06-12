@@ -8,7 +8,6 @@ import datetime
 histogram = lambda M: np.histogram(np.squeeze(np.asarray(M)))
 now = datetime.datetime.now()
 
-# This initializes
 def init(x, percentage_occupied):
   '''
     Args:
