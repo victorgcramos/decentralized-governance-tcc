@@ -39,7 +39,7 @@ These four groups mentioned above have the responsibility to select the candidat
 
 Edmund Burke defines a representative democracy as an environment where people rely on representatives to make **decisions**. Each representative must represent a group of people that have common interests.
 
-> "Their wishes ought to have great weight with him; their opinion, high respect; their business, unremitted attention. It is his duty to sacrifice his repose, his pleasures, his satisfaction, to theirs" [1];''
+> "Their wishes ought to have great weight with him; their opinion, high respect; their business, unremitted attention. It is his duty to sacrifice his repose, his pleasures, his satisfaction, to theirs" [1];
 
 A group of candidates, whose only work is to **represent** the population, dispute the seats of the Congress by a process called **election**. People vote on those candidates to choose who represents them in the next years, and, posteriorly, the most voted candidates are elected.
 
