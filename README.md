@@ -32,8 +32,34 @@ Each political party has its leaders, congressmen, influencers, and supporters. 
 
 These four groups mentioned above have the responsibility to select the candidates that would represent the population.
 
-<!--Edmund Burke defines a representative democracy as
-> "Their wishes ought to have great weight with him; their opinion, high respect; their business, unremitted attention. It is his duty to sacrifice his repose, his pleasures, his satisfaction, to theirs" [1];-->
+
+## Introduction
+
+### The State of Art
+
+Edmund Burke defines a representative democracy as an environment where people rely on representatives to make **decisions**. Each representative must represent a group of people that have common interests.
+
+> "Their wishes ought to have great weight with him; their opinion, high respect; their business, unremitted attention. It is his duty to sacrifice his repose, his pleasures, his satisfaction, to theirs" [1];
+
+A group of candidates, whose only work is to **represent** the population, dispute the seats of the Congress by a process called **election**. People vote on those candidates to choose who represents them in the next years, and, posteriorly, the most voted candidates are elected.
+
+### Larryland
+
+Imagine a country called Larryland, which population is about 200 millions of people, and runs a unique representative democracy. The difference between Larryland's democracy from **The State of Art** (as mentioned before) is that only people from the families above can participate in the electoral process.
+
+|  **Family**  | **% of the population** | **# of people** |
+|:--------:|:-------------------:|:-----------:|
+| Squid |         0.7%        |  1.599.174  |
+|  Pocket  |        0.13%        |   271.701   |
+|   Dread  |         0.7%        |  1.466.966  |
+
+Each one of the three families mentioned above must choose one candidate to participate in the electoral process:
+
+|  **Family**  | **Candidate Name** |
+|:--------:|:-------------------:|
+| Squid |       	Lewis        |
+|  Pocket  |       Yair        |
+|   Dread  |         Michael        |
 
 ## Bibliography
-[1] The Works of the Right Honourable Edmund Burke. Volume I (London: Henry G. Bohn, 1854), pp. 446–48.
+[1] Edmund Burke. The Works of Edmund Burke. Harper & brothers; 1847. p. 221.
