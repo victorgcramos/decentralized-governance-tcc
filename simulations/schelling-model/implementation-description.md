@@ -32,9 +32,9 @@ Every cell (A) has a neighborhood formed by its eight closest cells, as illustra
 There are two referenced cells on _Figure 3_: **A** and **B**. Both **A** and its neighborhood have a red outline, and the `similarity` is 66%. On the other hand, **B** (blue) is surrounded with only one similar to him, so the similarity is 28%
 
 #### The Moving Step
- If the `similarity` level is higher or equal the `threshold`, the cell stays in the same place. Otherwise, the cell moves to the closest empty cell. In this case, the **A** `similarity` is 66%, which is higher than the `threshold`, so **A** stays in the same place. Contrary, **B** has a `similarity` index below the threshold, so **B** is moving to the next empty _(purple)_ cell.
+ If the `similarity` level is higher or equal to the `threshold`, the cell stays in the same place. Otherwise, the cell moves to the closest empty cell. In this case, the **A** `similarity` is 66%, which is higher than the `threshold`, so **A** stays in the same place. Contrary, **B** has a `similarity` index below the threshold, so **B** is moving to the next empty _(purple)_ cell.
 
- > Threshold - number that establishes the limit of similarity. The current example indicates a threshold of 50%.
+ > Threshold - a number that establishes the limit of similarity. The current example indicates a threshold of 50%.
 
  ### The Iterative Method - Rounds Iterating over the NxN Matrix
  Each iteration is represented by the aggregate of NxN rounds. Once every cell realizes the procedure described by the **round**, one iteration is completed. As a consequence of similarity seeking, the **geographical matrix** described by _Figure 4_ represents the segregation process happening for this population **after 100 iterations**. _Figure 5_ represents the process **after 400 iterations**.
@@ -46,10 +46,6 @@ There are two referenced cells on _Figure 3_: **A** and **B**. Both **A** and it
  > Figure 5 - The segregation process after 400 iterations
 
 ## Conclusion
-After iterating the model over multiple times, the conclusion taken from the procedure described is that the segregation happens regardless of racism and other social prejudices. Even for a system that is apart of these human variables, the decregation still occurs.
+After iterating the model over multiple times, the conclusion taken from the procedure described is that the segregation happens regardless of racism and other social prejudices. Even for a system that is apart of these social variables, the segregation still occurs.
 
-With the approach described by Thomas Schelling, the ability of using computational simulations can be used to support some cientifical hypotheses, by improving the method that the results are taken.
-
-## References
-1. McCown, Frank. “Schelling’s Model of Segregation.” Stanford.Edu, nifty.stanford.edu/2014/mccown-schelling-model-segregation/. Accessed 5 July 2019.
-2. Schelling, Thomas C. “Dynamic Models of Segregation†.” The Journal of Mathematical Sociology, vol. 1, no. 2, July 1971, pp. 143–186, 10.1080/0022250x.1971.9989794. Accessed 5 July 2019.
+With the approach described by Thomas Schelling, the ability to use computational simulations can be used to support some scientifical hypotheses, by improving the method that the results are taken.
