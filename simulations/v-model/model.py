@@ -22,7 +22,7 @@ class Citizen:
 
   # TODO: Docs for get_opinion
   def get_opinion(self, proposal):
-    prob = self.interest_normal_dist.cdf(proposal)
+    prob = self.interest_curve.cdf(proposal)
     approved = np.random.uniform() >= (1 - prob)
     if approved:
       self.feedbacks["positive"] += 1
@@ -35,7 +35,7 @@ class Citizen:
   # TODO: Docs for vote
   def vote(self, candidates_list: list):
     similarity_list = list(map(lambda candidate:
-      self.interest_normal_dist.overlap(candidate.interest_normal_dist)
+      self.interest_curve.overlap(candidate.interest_curve)
     , candidates_list))
     sim = similarity_list.index(max(similarity_list))
     return sim
@@ -48,20 +48,20 @@ class Citizen:
       "positive": 0,
       "negative": 0
     }
-    self.interest_normal_dist = NormalDist(mu = self.mean, sigma = self.stddev)
+    self.interest_curve = NormalDist(mu = self.mean, sigma = self.stddev)
     self.feedback_log = []
 
 class Representative(Citizen):
   # TODO: docs for new_proposal
   def new_proposal(self):
-    return self.interest_normal_dist.samples(1).pop()
+    return self.interest_curve.samples(1).pop()
   
   def __init__(self, citizen: Citizen):
     self.id = citizen.id
     self.mean = citizen.mean
     self.stddev = citizen.stddev
     self.feedbacks = citizen.feedbacks
-    self.interest_normal_dist = citizen.interest_normal_dist
+    self.interest_curve = citizen.interest_curve
 
 
 class State():
@@ -162,7 +162,7 @@ class State():
         "negative": 0
       }
 
-  def mandate(self, time: int):
+  def term_of_office(self, time: int):
     self.choice_of_candidates()
     election_result = self.election()
     for i in range(time):
@@ -187,23 +187,26 @@ class State():
 if __name__ == "__main__":
   population_number: int = 600
   candidates_number: int = 5
-  state: State = State(population_number, candidates_number)
-  mandate_time: int = 365 # 4 years
-  mandates: int = 20
-  mandates_history: list = []
+  term_of_office_time: int = 365 # 4 years
+  terms_of_office: int = 20
+  terms_of_office_history: list = []
   acc_fb_log_coordinates = {
     "positives": [],
     "negatives": []
   }
-  for i in range(mandates):
-    mandate_status = state.mandate(mandate_time)
-    mandates_history.append(mandate_status)
+
+  state: State = State(population_number, candidates_number)
+  
+  for i in range(terms_of_office):
+    term_of_office_status = state.term_of_office(term_of_office_time)
+    terms_of_office_history.append(term_of_office_status)
     acc_fb_log = state.get_accumulated_feedback_log()
+  
   acc_fb_log_coordinates["positives"] += list(
     map(lambda acc_fb: acc_fb["positive"], acc_fb_log))
-  time = list(range(mandate_time * mandates))
+  time = list(range(term_of_office_time * terms_of_office))
   plt.plot(time, acc_fb_log_coordinates["positives"])
   plt.savefig("images/temp/%s.png"% datetime.now().isoformat())
 
-  # print(mandates_history)
+  # print(terms_of_office_history)
 
